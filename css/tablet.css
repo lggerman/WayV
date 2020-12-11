@@ -1,0 +1,16 @@
+.header{
+    max-height: 400px;
+}
+.header-logo{
+    max-width: 300px;
+    max-height: 15vh;
+}
+.menu-burger{
+    display: none;
+}
+.social-section a {
+    font-size: 4rem;
+}
+.footer a{
+    font-size: 2.7rem;
+}
