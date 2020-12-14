@@ -7,13 +7,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="/images/favicon.ico">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/tablet.css" media="screen and (min-width:768px)">
     <title>WayV</title>
 </head>
 <body>
     <header class="header">
-        <picture>
+        <picture class="header-logo__container">
             <source media="(min-width:768px)" srcset="/images/logo__wayv_large.png">
             <img src="/images/logo__wayv.png" alt="logo de WayV" class="header-logo">
         </picture>
@@ -21,30 +21,26 @@
             <div class="menu-burger__button"></div>
         </div>
     </header>
+    <ul class="nav-bar__tablet">
+        <li><a href="">home</a></li>
+        <li><a href="">music</a></li>
+        <li><a href="">content three</a></li>
+    </ul>
     <ul class="nav-bar">
         <li><a href="">home</a></li>
         <li><a href="">music</a></li>
         <li><a href="">content three</a></li>
     </ul>
     <main class="main">
-       <!--  <div class="slider">
-            <figure>
-                <img src="/images/slider/slider1.jpg" alt="">
-                <img src="/images/slider/slider2.jpg" alt="">
-                <img src="/images/slider/slider3.jpg" alt="">
-                <img src="/images/slider/slider4.jpg" alt="">
-                <img src="/images/slider/slider1.jpg" alt="">
-            </figure>
-        </div> -->
-        <figure class="home-image">
+        <picture class="home-image">
+            <source media="(min-width:768px)" srcset="/images/Home-large_copia.jpg">
             <img src="/images/Home-large.jpg" alt="imagen del home, miembros de wayv">
-        </figure>
+        </picture>
         <section class="social-section">
             <div class="social-container">
                 <a target="_blank" href="https://www.youtube.com/channel/UCEf_Bc-KVd7onSeifS3py9g" class="flaticon-011-youtube youtube"></a>
                 <a target="_blank" href="https://open.spotify.com/artist/1qBsABYUrxg9afpMtyoFKz?si=0nt__9GNSv6X0smdiRsiyg" class="flaticon-046-spotify spotify"></a>
                 <a target="_blank" href="https://twitter.com/wayv_official?lang=en" class="flaticon-043-twitter twitter"></a>
-                <a href=""></a>
             </div>
         </section>
     </main>

@@ -1,0 +1,39 @@
+@import "../css/functions";
+.header{
+    position: static;
+    max-height: 150px;
+}
+.header-logo{
+    max-width: 250px;
+}
+.header-logo__container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.menu-burger{
+    display: none;
+}
+.nav-bar{
+    display: none;
+}
+.nav-bar__tablet{
+    display: static;
+    @include flexCenter();
+    flex-direction: column;
+    width: 100%;
+    background-color: #000;
+    height: 100%;
+    list-style: none;
+    /* padding: 1.5rem 0; */
+    margin-top: 3rem;
+}
+.nav-bar__tablet li{
+    margin: 1.5rem 0;
+}
+.nav-bar__tablet a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+}
