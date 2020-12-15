@@ -1,5 +1,6 @@
 $backgroundColor : #272727;
 @import "../css/functions";
+@import "../css/music";
 
 *{
     margin: 0;
@@ -102,6 +103,11 @@ body{
 .home-image img{
     width: 100%;
     vertical-align: middle;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem
 }
 .social-section{
     @include flexCenter();

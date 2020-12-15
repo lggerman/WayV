@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.social-section{
+    background-color: #000;
+}
+.music{
+    text-align: center;
+}
+.music-title{
+    margin: 3rem;
+}
+.songs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+}
+.song{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 1%;
+    width: 50%-3%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.song:hover{
+    opacity: .3;
+    transition: .5s;
+}
+
+#song-1{
+    background-image: url("/images/songs/bad-alive.jpg");
+}
+#song-2{
+    background-image: url("/images/songs/nectar.jpg");
+}
+#song-3{
+    background-image: url("/images/songs/electric-hearts.jpg");
+}
+#song-4{
+    background-image: url("/images/songs/love-talk.jpg");
+}
+#song-5{
+    background-image: url("/images/songs/moonwalk.jpg");
+}
+#song-6{
+    background-image: url("/images/songs/take-off.jpg");
+}
+#song-7{
+    background-image: url("/images/songs/turn-back-time.jpg");
+}
+#song-8{
+    background-image: url("/images/songs/regular.jpg");
+}

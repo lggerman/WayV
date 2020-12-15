@@ -1,4 +1,95 @@
 * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.social-section {
+  background-color: #000;
+}
+
+.music {
+  text-align: center;
+}
+
+.music-title {
+  margin: 3rem;
+}
+
+.songs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 2%;
+}
+
+.song {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1% 1%;
+  width: 47%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.song:hover {
+  opacity: .3;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#song-1 {
+  background-image: url("/images/songs/bad-alive.jpg");
+}
+
+#song-2 {
+  background-image: url("/images/songs/nectar.jpg");
+}
+
+#song-3 {
+  background-image: url("/images/songs/electric-hearts.jpg");
+}
+
+#song-4 {
+  background-image: url("/images/songs/love-talk.jpg");
+}
+
+#song-5 {
+  background-image: url("/images/songs/moonwalk.jpg");
+}
+
+#song-6 {
+  background-image: url("/images/songs/take-off.jpg");
+}
+
+#song-7 {
+  background-image: url("/images/songs/turn-back-time.jpg");
+}
+
+#song-8 {
+  background-image: url("/images/songs/regular.jpg");
+}
+
+* {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -148,6 +239,12 @@ body {
 .home-image img {
   width: 100%;
   vertical-align: middle;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 3rem;
 }
 
 .social-section {
