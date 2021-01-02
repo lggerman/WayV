@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+.header{
+    position: fixed;
+}
 .social-section{
     background-color: #000;
 }
@@ -18,6 +21,7 @@
     justify-content: center;
     width: 100%;
     padding: 2%;
+    height: 800px;
 }
 .song{
     display: flex;
@@ -25,7 +29,7 @@
     align-items: center;
     margin: 1% 1%;
     width: 50%-3%;
-    height: 400px;
+    height: 25%-1%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

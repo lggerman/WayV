@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+.header {
+  position: fixed;
+}
+
 .social-section {
   background-color: #000;
 }
@@ -28,6 +32,7 @@
           justify-content: center;
   width: 100%;
   padding: 2%;
+  height: 800px;
 }
 
 .song {
@@ -42,7 +47,7 @@
           align-items: center;
   margin: 1% 1%;
   width: 47%;
-  height: 400px;
+  height: 24%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
