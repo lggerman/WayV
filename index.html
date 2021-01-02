@@ -9,7 +9,7 @@
     <link rel="shortcut icon" type="image/png" href="/images/favicon.ico">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/tablet.css" media="screen and (min-width:768px)">
-    <link rel="stylesheet" href="/">
+    <link rel="stylesheet" href="/css/desktop.css" media="screen and (min-width:1024px)">
     <title>WayV</title>
 </head>
 <body>
@@ -21,6 +21,11 @@
         <div class="menu-burger">
             <div class="menu-burger__button"></div>
         </div>
+        <ul class="nav-bar__desktop">
+            <li><a href="index.html">home</a></li>
+            <li><a href="music.html">music</a></li>
+            <li><a target="_blank"  href="https://www.weibo.com/WeiShenV?is_hot=1">WayV Official Page</a></li>
+        </ul>
     </header>
     <ul class="nav-bar__tablet">
         <li><a href="index.html">home</a></li>
@@ -34,20 +39,19 @@
     </ul>
     <main data-router-wrapper>
         <section data-router-view="home" class="home">
-
             <picture class="home-image">
                 <source media="(min-width:768px)" srcset="/images/Home-large_copia.jpg">
-                    <img src="/images/Home-large.jpg" alt="imagen del home, miembros de wayv">
-                </picture>
-            </section>
+                <img src="/images/Home-large.jpg" alt="imagen del home, miembros de wayv">
+            </picture>
+        </section>
+        <section class="social-section">
+            <div class="social-container">
+                <a target="_blank" href="https://www.youtube.com/channel/UC-ZHt5Zgadfx-B1CM63Lqew" class="flaticon-011-youtube youtube"></a>
+                <a target="_blank" href="https://open.spotify.com/artist/1qBsABYUrxg9afpMtyoFKz?si=0nt__9GNSv6X0smdiRsiyg" class="flaticon-046-spotify spotify"></a>
+                <a target="_blank" href="https://twitter.com/wayv_official?lang=en" class="flaticon-043-twitter twitter"></a>
+            </div> 
+        </section>
     </main>
-    <section class="social-section">
-        <div class="social-container">
-            <a target="_blank" href="https://www.youtube.com/channel/UC-ZHt5Zgadfx-B1CM63Lqew" class="flaticon-011-youtube youtube"></a>
-            <a target="_blank" href="https://open.spotify.com/artist/1qBsABYUrxg9afpMtyoFKz?si=0nt__9GNSv6X0smdiRsiyg" class="flaticon-046-spotify spotify"></a>
-            <a target="_blank" href="https://twitter.com/wayv_official?lang=en" class="flaticon-043-twitter twitter"></a>
-        </div> 
-    </section>
     <footer class="footer">
         <section class="contact-section">
             <a target="_blank" href="https://github.com/lggerman/" class="flaticon-038-github github"></a>

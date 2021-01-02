@@ -1,0 +1,58 @@
+.header {
+  height: 10vh;
+}
+
+.header-logo {
+  max-width: 130px;
+}
+
+.home-image img {
+  max-width: 400px;
+}
+
+.nav-bar__desktop {
+  color: #000;
+  font-size: 1rem;
+}
+
+.nav-bar__tablet {
+  position: relative;
+  left: 0;
+}
+
+.nav-bar__tablet li {
+  margin: .5rem 0;
+}
+
+.nav-bar__tablet a {
+  font-size: 1rem;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-section {
+  height: 15vh;
+}
+
+.social-section a {
+  font-size: 2rem;
+}
+
+.footer {
+  height: 10vh;
+}
+
+.footer a {
+  font-size: 1.7rem;
+}
+/*# sourceMappingURL=desktop.css.map */
