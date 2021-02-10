@@ -3,9 +3,6 @@
     padding: 0;
     margin: 0;
 }
-.header{
-    position: fixed;
-}
 .social-section{
     background-color: #000;
 }
@@ -24,15 +21,16 @@
     height: 800px;
 }
 .song{
+    background-color: rgba(51, 51, 51, 0.418);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1% 1%;
-    width: 50%-3%;
-    height: 25%-1%;
+    width: 47%;
+    height: 20%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: white;
     font-size: 3rem;
     font-weight: bold;

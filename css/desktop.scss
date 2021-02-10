@@ -3,29 +3,43 @@
 
 .header{
     height: 10vh;
+    justify-content: space-between;
 }
-.header-logo{
-    max-width: 130px;
+.header-logo__container{
+    width: 50%;
+}
+.header-logo__container img{
+    max-width: 120px;
 }
 .home-image img{
     max-width: 400px;
 }
 .nav-bar__desktop{
+    width: 50%;
+    display: flex;
+    list-style: none;
     color: #000;
     font-size: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.nav-bar__tablet {
-    position:relative;
-    left: 0;
+.nav-bar__desktop a{
+    text-decoration: none;
+    text-transform: uppercase;
 }
-.nav-bar__tablet li{
-    margin: .5rem 0;
-}
-.nav-bar__tablet a{
-    font-size: 1rem;
+.nav-bar__tablet{
+    display: none
 }
 .home{
     @include flexCenter();
+}
+.home-image{
+    display: none;
+}
+.home-image__desktop img{
+    display: initial;
+    width: 100%;
+    margin: 1rem 0;
 }
 .social-section{
     height: 15vh;
