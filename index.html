@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font/flaticon.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width:768px)">
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width:1024px)">
+    <title>WayV</title>
+</head>
+<body>
+    <header class="header">
+        <picture class="header-logo__container">
+            <source media="(min-width:768px)" srcset="images/logo__wayv_large.png">
+            <img src="images/logo__wayv.png" alt="logo de WayV" class="header-logo">
+        </picture>
+        <div class="menu-burger">
+            <div class="menu-burger__button"></div>
+        </div>
+        <ul class="nav-bar__desktop">
+            <li><a href="index.html">home</a></li>
+            <li><a href="music.html">music</a></li>
+            <li><a target="_blank"  href="https://www.weibo.com/WeiShenV?is_hot=1">WayV Official Page</a></li>
+        </ul>
+    </header>
+    <ul class="nav-bar__tablet">
+        <li><a href="index.html">home</a></li>
+        <li><a href="music.html">music</a></li>
+        <li><a target="_blank" href="https://www.weibo.com/WeiShenV?is_hot=1">WayV Official Page</a></li>
+    </ul>
+    <ul class="nav-bar">
+        <li><a href="index.html">home</a></li>
+        <li><a href="music.html">music</a></li>
+        <li><a target="_blank" href="https://www.weibo.com/WeiShenV?is_hot=1">WayV Official Page</a></li>
+    </ul>
+    <main data-router-wrapper>
+        <section data-router-view="home" class="home">
+            <picture class="home-image">
+                <source media="(min-width:768px)" srcset="../images/Home-large_copia.jpg">
+                <img src="images/Home-large.jpg" alt="imagen del home, miembros de wayv">
+            </picture>
+            <picture class="home-image__desktop">
+                <img src="images/wayv-home-desktop.jfif" alt="">
+            </picture>
+        </section>
+        <section class="social-section">
+            <div class="social-container">
+                <a target="_blank" href="https://www.youtube.com/channel/UC-ZHt5Zgadfx-B1CM63Lqew" class="flaticon-011-youtube youtube"></a>
+                <a target="_blank" href="https://open.spotify.com/artist/1qBsABYUrxg9afpMtyoFKz?si=0nt__9GNSv6X0smdiRsiyg" class="flaticon-046-spotify spotify"></a>
+                <a target="_blank" href="https://twitter.com/wayv_official?lang=en" class="flaticon-043-twitter twitter"></a>
+            </div> 
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="contact-section">
+            <a target="_blank" href="https://github.com/lggerman/" class="flaticon-038-github github"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/german-lopez-67b83a1b9/" class="flaticon-045-linkedin linkedin"></a>
+        </section>
+    </footer>
+    <script src="../main.js"></script>
+</body>
+</html>
