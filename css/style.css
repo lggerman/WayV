@@ -116,7 +116,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   max-height: 90px;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   z-index: 2;
   top: 0;
 }
