@@ -41,9 +41,10 @@
 }
 
 #song-1{
-    background-image: url("/images/songs/bad-alive.jpg");
+    background-image: url("../images/songs/bad-alive.jpg");
 }
 #song-2{
+<<<<<<< HEAD
     background-image: url("images/songs/nectar.jpg");
 }
 #song-3{
@@ -63,4 +64,25 @@
 }
 #song-8{
     background-image: url("images/songs/regular.jpg");
+=======
+    background-image: url("../images/songs/nectar.jpg");
+}
+#song-3{
+    background-image: url("../images/songs/electric-hearts.jpg");
+}
+#song-4{
+    background-image: url("../images/songs/love-talk.jpg");
+}
+#song-5{
+    background-image: url("../images/songs/moonwalk.jpg");
+}
+#song-6{
+    background-image: url("../images/songs/take-off.jpg");
+}
+#song-7{
+    background-image: url("../images/songs/turn-back-time.jpg");
+}
+#song-8{
+    background-image: url("../images/songs/regular.jpg");
+>>>>>>> e268fc696a5e9ad4e25d4f20a05549aaea8713d2
 }
