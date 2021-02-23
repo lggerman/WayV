@@ -16,11 +16,10 @@
     "url": "https://github.com/lggerman/WayV/issues"
   },
   "homepage": "https://github.com/lggerman/WayV#readme",
-  "dependencies": {
-    "@dogstudio/highway": "^2.2.1",
-    "gsap": "^3.5.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.15.0"
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
