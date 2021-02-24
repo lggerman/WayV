@@ -6,11 +6,9 @@
 .social-section{
     background-color: #000;
 }
-.music{
-    text-align: center;
-}
 .music-title{
     margin: 3rem;
+    text-align: center;
 }
 
 #song-1{
@@ -39,17 +37,18 @@
 }
 
 .songs-section{
+    margin: 0 auto;
     display: flex;   
     flex-wrap: wrap;
 }
 .div-songs{
-    width: 48%;
-    margin: 1%;
+    width: 96%;
+    margin: 2%;
     display: block;
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: relative
+    position: relative;
 }
 .songs-article{
     position: relative;
@@ -66,19 +65,24 @@
   }
 
 .songs-texts{
-    font-size: 1.7rem;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-    /* display: none; */
-    position: absolute;
-    bottom: 50%;
+    display: none;
+    
 }   
 .div-songs a{
-    font-size: 3rem;
+    font-size: 2rem;
     border: 2px solid white;
     padding: 0 .5rem;
     font-weight: bold;
+    position: absolute;
+    bottom: 45%;
+    left: 0;
+    right: 0;
+    margin: .5rem auto;
+    width: auto;
+    max-width: 8rem;
 }
 .div-songs a:hover{
     color: black;
@@ -86,14 +90,25 @@
     transition: .3s ease-in;
 }
 .div-songs p{
+    font-size: 1.2rem;
     margin-top: .5rem;
     text-transform: capitalize;
+    position: absolute;
+    bottom: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: auto;
+    max-width: 20rem;
 }
 
 .opacity-active{
-    opacity: .3;
+    opacity: .4;
     transition: .4s all ease-in-out;
 }
 .listen-active{
-    /* display: initial; */
+    display: initial;
+}
+.listen-active-grayscale{
+    filter: grayscale(100%);
 }
