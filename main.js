@@ -10,6 +10,18 @@ $burgerButton.addEventListener('click', () => {
 // MediaQueries
 //
 //
+function removeClass(name) {
+  const $divSongs = document.querySelectorAll('.div-songs');
+  $divSongs.forEach((div, i) => {
+    if (name !== $divSongs[i].attributes.name.textContent) {
+      div.childNodes[1].classList.remove('opacity-active');
+      div.childNodes[1].classList.remove('listen-active-grayscale');
+      div.childNodes[3].classList.remove('listen-active');
+      div.childNodes[5].classList.remove('listen-active');
+    }
+  });
+}
+
 const $desktop = window.matchMedia('(min-width: 1024px)');
 if ($desktop.matches === true) {
   const $divSongs = document.querySelectorAll('.div-songs');
@@ -33,23 +45,19 @@ if ($desktop.matches === true) {
 }
 
 const $mobile = window.matchMedia('(min-width: 320px)');
-if ($mobile.matches === true) {
+const $tablet = window.matchMedia('(max-width: 768px)');
+if ($mobile.matches === true && $tablet.matches === true) {
   const $divSongs = document.querySelectorAll('.div-songs');
-
-  $divSongs.forEach((div) => {
-    div.addEventListener('touchend', () => {
+  $divSongs.forEach((div, i) => {
+    div.addEventListener('click', () => {
       div.childNodes[1].classList.toggle('opacity-active');
       div.childNodes[1].classList.toggle('listen-active-grayscale');
       div.childNodes[3].classList.toggle('listen-active');
       div.childNodes[5].classList.toggle('listen-active');
+      /* const name = $divSongs[i].attributes.name.textContent;
+      removeClass(name); */
+      const nameSong = $divSongs[i].attributes.name.textContent;
+      removeClass(nameSong);
     });
   });
-  /* $divSongs.forEach((div) => {
-    div.addEventListener('touch', () => {
-      div.childNodes[1].classList.toggle('opacity-active');
-      div.childNodes[1].classList.toggle('listen-active-grayscale');
-      div.childNodes[3].classList.toggle('listen-active');
-      div.childNodes[5].classList.toggle('listen-active');
-    });
-  }); */
 }
